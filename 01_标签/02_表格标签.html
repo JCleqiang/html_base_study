@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--表格标签
+border这个属性决定了边框的宽度. 默认情况下这个属性的值是0, 所以看不到边框
+-->
+    <table border="20" width="300" height="333" align="right">
+<!--        给tr标签设置valign属性, 可以控制当前行中所有单元格中的内容, 在垂直方向的对齐方式-->
+        <!--        给tr标签设置align属性, 可以控制当前行中所有单元格中的内容, 在水平方向的对齐方式-->
+        <tr valign="bottom">
+            <td width="100" height="100">11</td>
+            <td>12</td>
+        </tr>
+        <tr align="right">
+            <td>21</td>
+            <td>22  </td>
+        </tr>
+    </table>
+
+
+
+
+
+<!--
+在表格标签中想通过指定外边距为0来实现细线表格是不靠谱的, 其实它是将2条线合并为了一条线, 所以看上去很不舒服
+
+细线表格的制作方式:
+1.给table标签设置bgcolor
+2.给tr标签设置bgcolor
+3.给table标签设置cellspacing = "1px"
+
+注意点:
+table标签和tr标签以及td标签都支持bgcolor属性
+但是以上内容仅仅作为了解, 因为样式以后都是通过css来控制
+-->
+<table bgcolor="#663399" cellspacing="5px">
+    <tr bgcolor="white">
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr bgcolor="white">
+        <td>21</td>
+        <td>22  </td>
+    </tr>
+</table>
+
+
+
+
+<!--
+1.表格标题
+在表格标签中提供了一个标签专门用来设置表格的标题, 这个标签叫做caption. 只要将标题写在caption标签中, 那么标题就会自动相对于表格的宽度居中
+
+2.caption标签的注意点:
+2.1caption一定要写在table标签中, 否则无效
+2.2caption一定要紧跟在table标签后面
+
+3.标题单元格标签
+3.1.在表格标签中提供了一个标签专门用来存储每一列的标题, 这个标签叫做th标签, 只要将当前列的标题存储在这个标签中就会自动居中+加粗文字
+
+3.2.到此为止我们就发现, 其实表格中有两种单元格, 一种是td, 一种是th. td是专门用来存储数据的, th是专门用来存储当前列的标题的
+-->
+<table bgcolor="black" cellspacing="1px" width="200">
+    <caption>哈哈哈</caption>
+    <tr bgcolor="white">
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr bgcolor="white">
+        <td>21</td>
+        <td>22  </td>
+    </tr>
+</table>
+
+
+
+
+
+<!--
+1.由于表格中存储的数据比较复杂, 为了方便管理和阅读以及提升语义, 我们可以对表格中存储的数据进行分类
+表格中存储的数据可以分为4类
+1.1表格的标题
+1.2.表格的表头信息
+1.3.表格的主体信息
+1.4.表格的页尾信息
+
+2.表格的完整结构
+<table>
+    <caption>表格的标题</caption>
+    <thead>
+        <tr>
+            <th>每一列的标题</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>数据</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>数据</td>
+        </tr>
+    </tfoot>
+</table>
+
+caption作用: 指定表格的标题
+thead作用: 指定表格的表头信息
+tbody作用: 指定表格的主体信息
+tfoot作用: 指定表格的附加信息
+
+3.注意点:
+3.1.如果我们没有编写tbody, 系统会系统给我们添加tbody
+3.2.如果指定了thead和tfoot, 那么在修改整个表格的高度时, thead和tfoot有自己默认的高度, 不会随着表格的高度变化而变化
+-->
+
+<table border="1px" width="500px" height="500px">
+    <caption>学生信息</caption>
+    <thead>
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>张三</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>李四</td>
+        <td>40</td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>2</td>
+        <td>30</td>
+    </tr>
+    </tfoot>
+</table>
+
+
+
+
+<!--
+1.水平方向上的单元格合并
+可以给td标签添加一个colspan属性, 来指定把某一个单元格当做多个单元格来看待(水平方向)
+例如:
+<td colspan="2"></td>
+含义: 把当前单元格当做两个单元格来看待
+
+注意点:
+1.由于把某一个单元格当做了多个单元格来看到, 所以就会多出一些单元格, 所以需要删掉一些单元格才能正常显示
+2.一定要记住单元格合并永远都是向后或者向下合并, 而不能向前或者向上合并
+
+2.垂直方向上的单元格合并
+可以给td标签设置一个rowspan属性, 来指定把某一个单元格当做多个单元格来看待(垂直方向)
+例如:
+<td rowspan="2"></td>
+含义: 把当前单元格当做两个单元格来看待
+-->
+<table bgcolor="black" width="300px" height="300px">
+    <caption>合并单元格</caption>
+    <tr bgcolor="white">
+        <td colspan="2">横向合并11,12</td>
+        <td rowspan="2">竖向合并13,23</td>
+    </tr>
+    <tr bgcolor="white">
+        <td>21</td>
+        <td>22</td>
+    </tr>
+    <tr bgcolor="white">
+        <td>31</td>
+        <td>32</td>
+        <td>33</td>
+    </tr>
+</table>
+</body>
+</html>

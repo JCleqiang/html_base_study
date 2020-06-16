@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    base标签就是专门用来统一的指定当前网页中所有的超链接(a标签)需要如何打开-->
+    <base target="_self">
+</head>
+<body>
+    <!--标题标签-->
+    <h1>我是标题标签h1</h1>
+
+    <!--分割线-->
+    <hr>
+
+<!--段落标签-->
+<p>我是段落标签p</p>
+
+<!--图片标签
+    1.src是英文source的缩写
+-->
+<img src="../images/01.jpg">
+    <img src="../images/01.jpg" width="300">
+    <img src="../images/01.jpg" width="200" height="100">
+
+<!-- a标签
+    a标签的作用: 就是用于控制页面与页面之间跳转的
+    a标签中有一个叫做target属性, 这个属性的作用就是专门用于控制如何跳转
+_self: 用于在当前选项卡中跳转, 也就是不新建界面跳转. 默认就是_self
+_blank: 用于在新的选项卡中跳转, 也就是新建界面跳转
+-->
+<a href="https:www.baidu.com" target="_blank" title="点击">百度链接</a>
+
+    <!--
+    1.什么是假链接?
+    就是点击之后不会跳转的链接我们称之为假链接
+
+    2.假链接存在的意义:
+    在企业开发前期, 其它界面都没有写出来, 那么我们就不知道应该跳转到什么地方, 所以就只能使用假链接来代替. 当项目后期其它界面都已经完成时再将假链接体会为真链接
+
+    3.假链接的格式:
+    1.#
+    2.javascript:
+
+    4.两者之间的区别:
+    #的假链接会自动回到网页的顶部, 而javascript:的假链接不会自动回到网页顶部
+    -->
+<a href="javascript:"></a>
+</body>
+</html>
