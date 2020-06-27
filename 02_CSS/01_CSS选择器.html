@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*通配符选择器
+        由于通配符选择器是设置界面上所有的标签的属性, 所以在设置之前会遍历所有的标签, 如果当前界面上的标签比较多, 那么性能就会比较差, 所以在企业开发中一般不会使用通配符选择器*/
+        *{
+            color: black;
+        }
+        /*p {*/
+        /*    color: gray;*/
+        /*}*/
+        /*id选择器*/
+        #id_1 {
+            color: blue;
+        }
+        /*类选择器*/
+        .class_1 {
+            color: yellow;
+        }
+        /*后代选择器,空格间隔*/
+        #id_2 ul li p{
+            color: green;
+        }
+        div p {
+            color: coral;
+        }
+        /*子元素选择器
+        1.子元素选择器只会查找儿子, 不会查找其他被嵌套的标签
+        2.子元素选择器之间需要用>符号连接, 并且不能有空格
+        3.子元素选择器不仅仅可以使用标签名称, 还可以使用其它选择器
+        4.子元素选择器可以通过>符号一直延续下去
+        */
+        div>ul>li>p{
+            color: purple;
+        }
+        /*交集选择器, 给所有选择器选中的标签中, 相交的那部分标签设置属性*/
+        .class_2#id_3{
+            color: wheat;
+            background-color: black;
+        }
+        /*并集选择器,给所有选择器选中的标签设置属性, 并集选择器必须使用,来连接*/
+        #id_1,#id_2{
+            background-color: blanchedalmond;
+        }
+        /*CSS3中新增的选择器最具代表性的就是序选择器
+         1.同级别的第几个
+         :first-child 选中同级别中的第一个标签
+         :last-child 选中同级别中的最后一个标签
+         :nth-child(n) 选中同级别中的第n个标签
+         :nth-last-child(n) 选中同级别中的倒数第n个标签
+         :only-child 选中父元素中唯一的标签
+         注意点: 不区分类型
+
+         2.同类型的第几个
+         :first-of-type 选中同级别中同类型的第一个标签
+         :last-of-type  选中同级别中同类型的最后一个标签
+         :nth-of-type(n) 选中同级别中同类型的第n个标签
+         :nth-last-of-type(n)  选中同级别中同类型的倒数第n个标签
+         :only-of-type 选中父元素中唯一类型的某个标签
+        */
+        .xu_xuan_ze_qi:nth-of-type(2) {
+            background-color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <p>我是标签选择器,红色</p>
+    <p id="id_1">我是id选择器,#号,蓝色</p>
+    <p class="class_1">我是class选择器,.号,黄色</p>
+    <div id="id_2">
+            <ul>
+                <li>
+                    <p>后代选择</p>
+                </li>
+            </ul>
+
+    </div>
+    <div>
+        <p>我是段落</p>
+        <p>我是段落</p>
+        <ul>
+            <li><p>我是段落</p></li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <p>ddd</p>
+        </div>
+    </div>
+
+    <p class="class_2" id="id_3">交集选择器</p>
+
+
+    <p class="xu_xuan_ze_qi">我是段落1</p>
+    <div>
+        <p class="xu_xuan_ze_qi">我是段落2</p>
+        <p class="xu_xuan_ze_qi">我是段落2</p>
+        <h1>我是标题</h1>
+    </div>
+</body>
+</html>
