@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3364268e-a91e-4cad-bba3-ac1c61a59e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/html_base_study.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_标签/05_媒体标签.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/00_CSS的一些属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/01_CSS选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/02_CSS选择器练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/03_CSS三大特性之继承性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/04_CSS三大特性之层叠性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/05_CSS三大特性之优先级.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3364268e-a91e-4cad-bba3-ac1c61a59e2d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1592225552936</updated>
       <workItem from="1592225555093" duration="6925000" />
-      <workItem from="1593260938573" duration="3542000" />
+      <workItem from="1593260938573" duration="3656000" />
     </task>
     <servers />
   </component>
