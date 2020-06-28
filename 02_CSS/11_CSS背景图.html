@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>35-背景平铺属性</title>
+    <style>
+        /*
+        div{
+            width: 500px;
+            height: 500px;
+        }
+        .box1{
+            background-image: url(images/girl.jpg);
+            background-repeat: repeat-y;
+        }
+        */
+        /*
+        body{
+            background-image: url(images/bg2.jpg);
+        }
+        */
+        .box0 {
+            width: 980px;
+            height: 500px;
+            background-color: aquamarine;
+            background-image: url(../images/01.jpg);
+            /*background-repeat: repeat-y;*/
+            background-repeat:no-repeat;
+            background-position: center bottom; /*background-position:属性, 就是专门用于控制背景图片的位置*/
+        }
+
+        .box1{
+            width: 110px;
+            height: 143px;
+            background-image: url(../images/weibo.png);
+            background-position: -560px -216px;
+        }
+        .box2{
+            width: 127px;
+            height: 140px;
+            background-position: -834px -217px;
+        }
+        .box3{
+            width: 124px;
+            height: 144px;
+            background-position: -264px -215px;
+        }
+    </style>
+</head>
+<body>
+<!--
+1.如何控制背景图片的平铺方式?
+在CSS中有一个background-repeat属性, 就是专门用于控制背景图片的平铺方式的
+
+取值:
+repeat 默认, 在水平和垂直都需要平铺
+no-repeat 在水平和垂直都不需要平铺
+repeat-x 只在水平方向平铺
+repeat-y 只在垂直方向平铺
+
+快捷键
+bgr background-repeat:
+
+应用场景:
+可以通过背景图片的平铺来降低图片的大小, 提升网页的访问速度
+-->
+<div class="box0"></div>
+
+
+<!--
+1.什么是CSS精灵图
+CSS精灵图是一种图像合成技术
+
+2.CSS精灵图作用
+可以减少请求的次数, 以及可以降低服务器处理压力
+
+3.如何使用CSS精灵图
+CSS的精灵图需要配合背景图片和背景定位来使用
+-->
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+</body>
+</html>
