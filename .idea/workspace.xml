@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3364268e-a91e-4cad-bba3-ac1c61a59e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/00_a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/07_div和span.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/08_CSS的显示模式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/09_CSS元素显示模式转换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/10_练习baidu首页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/11_CSS背景图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/12_CSS边框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/baidu/bdlogo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/baidu/ic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/baidu/picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/weibo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_CSS/00_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/00_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_CSS/10_练习baidu首页.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/10_练习baidu首页.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00_a.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02_CSS/00_a.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10_练习baidu首页.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="10_练习baidu首页.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/02_CSS/10_练习baidu首页.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="405">
+              <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+              <folding>
+                <marker date="1593421648370" expanded="true" signature="2647:2676" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,17 +31,17 @@
       <file leaf-file-name="11_CSS背景图.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_CSS/11_CSS背景图.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="630">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="12_CSS边框.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="12_CSS边框.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/02_CSS/12_CSS边框.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+            <state relative-caret-position="162">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -96,10 +80,11 @@
         <option value="$PROJECT_DIR$/02_CSS/07_CSS显示模式.html" />
         <option value="$PROJECT_DIR$/02_CSS/08_CSS的显示模式.html" />
         <option value="$PROJECT_DIR$/02_CSS/09_CSS元素显示模式转换.html" />
-        <option value="$PROJECT_DIR$/02_CSS/00_a.html" />
         <option value="$PROJECT_DIR$/02_CSS/10_联系baidu首页.html" />
         <option value="$PROJECT_DIR$/02_CSS/11_CSS背景图.html" />
         <option value="$PROJECT_DIR$/02_CSS/12_CSS边框.html" />
+        <option value="$PROJECT_DIR$/02_CSS/00_a.html" />
+        <option value="$PROJECT_DIR$/02_CSS/10_练习baidu首页.html" />
       </list>
     </option>
   </component>
@@ -136,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,8 +150,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -273,12 +258,13 @@
       <workItem from="1593260938573" duration="3656000" />
       <workItem from="1593315148923" duration="2587000" />
       <workItem from="1593326321684" duration="3316000" />
-      <workItem from="1593334273179" duration="3170000" />
+      <workItem from="1593334273179" duration="3234000" />
+      <workItem from="1593400233448" duration="3285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9073000" />
+    <option name="totallyTimeSpent" value="12422000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1804" height="995" extended-state="0" />
@@ -299,7 +285,7 @@
       <window_info anchor="right" id="Flutter Outline" order="3" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17820658" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1799092" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -333,6 +319,44 @@
     <state x="291" y="81" width="670" height="676" key="search.everywhere.popup/0.23.1280.734@0.23.1280.734" timestamp="1592316583500" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/02_CSS/00_a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CSS/10_练习baidu首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+          <folding>
+            <marker date="1593421648370" expanded="true" signature="2647:2676" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CSS/11_CSS背景图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CSS/07_div和span.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CSS/12_CSS边框.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/02_CSS/00_a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1458">
@@ -410,31 +434,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02_CSS/00_a.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02_CSS/10_练习baidu首页.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/02_CSS/11_CSS背景图.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+        <state relative-caret-position="630">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02_CSS/12_CSS边框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="93" column="32" lean-forward="true" selection-start-line="93" selection-start-column="32" selection-end-line="93" selection-end-column="32" />
+        <state relative-caret-position="162">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CSS/00_a.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_CSS/10_练习baidu首页.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="38" column="25" lean-forward="true" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <marker date="1593421648370" expanded="true" signature="2647:2676" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

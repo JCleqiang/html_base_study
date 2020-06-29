@@ -2,89 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>50-盒子宽高练习</title>
     <style>
-        #body {
-            margin: auto;
-            background-color: white;
-            text-align: center;
+        body {
+            margin: 0;
         }
-        .nav {
-            font-size: 16px;
+        /*判断是否是内容宽高为100的盒子
+        只需要看width/height是否为100即可*/
+        .box1{
+            width:50px;
+            height: 50px;
+            padding: 25px;
+            background-color: green;
         }
-        .nav li, .bk li, .set_home li, .tui_guang li {
-            list-style: none; /*去掉前面的圆点*/
-            display: inline; /*让li横向排列*/
+        .box2{
+            width: 96px;
+            height: 96px;
+            border: 2px solid #000;
         }
-        .content {
-            margin: 30px 0;
-        }
-        .content input[type=text] {
-            width: 400px;
-            height: 30px;
-        }
-        .content input[type=submit]{
+        .box3{
             width: 100px;
-            height: 30px;
+            height: 100px;
+            background-color: yellow;
         }
-        .bk {
-            margin: 30px 0;
+
+        /*判断是否是元素宽高为200的盒子
+        只需要看 边框 + 内边距 + 内容宽度/内容高度 时候等于200即可*/
+        .box4{
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            background-color: red;
         }
-        .bottom p {
-            color: gray;
+        .box5{
+            /*25+25+150 = 200*/
+            width: 150px;
+            height: 150px;
+            border: 25px solid #000;
+        }
+        .box6{
+            /*25+25+150 = 200*/
+            /*5+5+20+20+150=200*/
+            width: 150px;
+            height: 150px;
+            /*padding: 25px;*/
+            padding:20px;
+            border: 5px solid #000;
+            background-color: blue;
+        }
+
+        /*判断是否是元素空间宽高为300的盒子
+        只需要看 外边距+边框+内边距+内容宽度/内容高度*/
+        .box7{
+            width: 300px;
+            height: 300px;
+            background-color: purple;
+        }
+        .box8{
+            /*
+            50+50+25+25+25+25+100
+            100 +50 +50 + 100
+            300
+            */
+            width: 100px;
+            height: 100px;
+            padding: 25px;
+            border: 25px solid #000;
+            margin: 50px;
+        }
+        /*现有如下盒子模型, 要求增加padding属性为25之后仍然保持元素宽高为200
+
+        元素宽高 = 边框 + 内边距 + 内容宽高
+                 = 0 + 0 + 200 = 200
+                 = 0 + 25 + 25 + 200 = 250
+                 = 0 + 25 + 25 + 150 = 200
+         规律:
+         1.增加了padding之后元素的宽高也会发生变化
+         2.如果增加了padding之后还想保持元素的宽高, 那么就必须减去内容的宽高
+        */
+        .box9{
+            width: 150px;
+            height: 150px;
+            padding: 25px;
+            background-color: red;
+        }
+        /*现有如下盒子模型, 要求增加border属性为20之后仍然保持元素宽高为200
+        元素宽高 = 边框 + 内边距 + 内容宽高
+                 = 0 + 0 + 200 = 200
+                 = 0 + 20 + 20 + 200 = 240
+                 = 0 + 20 + 20 + 160 = 200
+          规律:
+         1.增加了border之后元素的宽高也会发生变化
+         2.如果增加了border之后还想保持元素的宽高, 那么就必须减去内容的宽高
+        */
+        .box10{
+            width: 160px;
+            height: 160px;
+            border: 20px solid #000;
+            background-color: deepskyblue;
         }
     </style>
 </head>
 <body>
-    <div id="body">
-        <div>
-            <img src="../images/baidu/bdlogo.gif">
-        </div>
-        <dlv>
-            <ul class="nav">
-                <li><a href="#">新 闻</a></li>
-                <li><strong>网 页</strong></li>
-                <li><a href="#">贴 吧</a></li>
-                <li><a href="#">知 道</a></li>
-                <li><a href="#">音 乐</a></li>
-                <li><a href="#">图 片</a></li>
-                <li><a href="#">视 频</a></li>
-                <li><a href="#">地 图</a></li>
-            </ul>
-        </dlv>
-        <div class="content">
-            <form action="http://www.baidu.com">
-                <input type="text">
-                <input type="submit" value="百度一下">
-            </form>
-        </div>
-        <div>
-            <ul class="bk">
-                <li><a href="#">百科</a></li>
-                <li><a href="#">文库</a></li>
-                <li><a href="#">hao123</a></li>
-                <li><a href="#">更多>></a></li>
-            </ul>
-        </div>
-        <div>
-            <img src="../images/baidu/ic.jpg">
-            <span><a>百度地图带你吃喝玩乐，全心全意为人民服务</a></span>
-        </div>
-        <div>
-            <ul class="set_home">
-                <li > <a href="#">把百度设为主页</a></li>
-                <li > <a href="#">安装百度卫士</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul class="tui_guang">
-                <li><a href="#">加入百度推广</a></li>
-                <li><a href="#">搜索风云榜</a></li>
-                <li><a href="#">关于百度</a></li>
-                <li><a href="#">About Baidu</a></li>
-            </ul>
-        </div>
-        <span class="bottom"><p>©2016 Baidu 使用百度前必读 京ICP证666号</p></span>
-    </div>
+<div class="box1">box1</div>
+<div class="box2">box2</div>
+<div class="box3">box3</div>
+<hr>
+<div class="box4">box4</div>
+<div class="box5">box5</div>
+<div class="box6">box6</div>
+<!--<hr>-->
+<!--<div class="box7">box7</div>-->
+<!--<div class="box8">box8</div>-->
+<!--<hr>-->
+<!--<div class="box9">box9</div>-->
+<!--<div class="box10">box10</div>-->
 </body>
 </html>
