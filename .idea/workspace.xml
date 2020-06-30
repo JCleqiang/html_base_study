@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3364268e-a91e-4cad-bba3-ac1c61a59e2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02_CSS/00.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/13_CSS外边距合并现象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/14_盒子宽高练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/15_盒子box-sizing属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/16_子盒子居中且不顶下来.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02_CSS/17_盒子居中和内容居中.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_CSS/00_a.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/00_a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_CSS/00.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/00.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_CSS/17_盒子居中和内容居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/17_盒子居中和内容居中.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +122,7 @@
       <workItem from="1593326321684" duration="3316000" />
       <workItem from="1593334273179" duration="3234000" />
       <workItem from="1593400233448" duration="3285000" />
-      <workItem from="1593432626793" duration="2139000" />
+      <workItem from="1593432626793" duration="3595000" />
     </task>
     <servers />
   </component>
