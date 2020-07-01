@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3364268e-a91e-4cad-bba3-ac1c61a59e2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" /> 
+      <change beforePath="$PROJECT_DIR$/02_CSS/00.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/00.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02_CSS/17_盒子居中和内容居中.html" beforeDir="false" afterPath="$PROJECT_DIR$/02_CSS/17_盒子居中和内容居中.html" afterDir="false" /> 
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
+  </component> 
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="10_练习baidu首页.html" pinned="false" current-in-tab="true">
@@ -55,6 +54,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> b3bd8544dca0a2813bd06b1eeade3e0ae13d0137
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -71,27 +72,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/02_CSS/08_CSS背景和精灵图.html" />
-        <option value="$PROJECT_DIR$/02_CSS/07_CSS显示模式.html" />
-        <option value="$PROJECT_DIR$/02_CSS/08_CSS的显示模式.html" />
-        <option value="$PROJECT_DIR$/02_CSS/09_CSS元素显示模式转换.html" />
-        <option value="$PROJECT_DIR$/02_CSS/10_联系baidu首页.html" />
-        <option value="$PROJECT_DIR$/02_CSS/11_CSS背景图.html" />
-        <option value="$PROJECT_DIR$/02_CSS/12_CSS边框.html" />
-        <option value="$PROJECT_DIR$/02_CSS/00_a.html" />
-        <option value="$PROJECT_DIR$/02_CSS/10_练习baidu首页.html" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -100,9 +80,6 @@
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../fix/java/maven-3.5.4/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="48" />
@@ -114,6 +91,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -151,6 +129,8 @@
       <pane id="Scope" />
     </panes>
   </component>
+=======
+>>>>>>> b3bd8544dca0a2813bd06b1eeade3e0ae13d0137
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -175,59 +155,28 @@
       <recent name="$PROJECT_DIR$/images/baidu" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="ServiceViewManager">
@@ -257,6 +206,7 @@
       <workItem from="1593315148923" duration="2587000" />
       <workItem from="1593326321684" duration="3316000" />
       <workItem from="1593334273179" duration="3234000" />
+<<<<<<< HEAD
       <workItem from="1593400233448" duration="3287000" />
       <workItem from="1593484692006" duration="1272000" />
     </task>
@@ -301,11 +251,15 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+=======
+      <workItem from="1593400233448" duration="3285000" />
+      <workItem from="1593432626793" duration="3595000" />
+    </task>
+    <servers />
+  </component>
+>>>>>>> b3bd8544dca0a2813bd06b1eeade3e0ae13d0137
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
     <state x="226" y="55" key="#Project_Structure" timestamp="1592225557467">
@@ -317,6 +271,7 @@
     </state>
     <state x="291" y="81" width="670" height="676" key="search.everywhere.popup/0.23.1280.734@0.23.1280.734" timestamp="1592316583500" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/02_CSS/10_练习baidu首页.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -496,4 +451,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> b3bd8544dca0a2813bd06b1eeade3e0ae13d0137
 </project>
