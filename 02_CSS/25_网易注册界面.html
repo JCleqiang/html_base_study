@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册邮箱</title>
+    <style>
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+            margin:0;padding:0
+        }
+        .all {
+            width: 960px;
+            margin: 0 auto;
+
+        }
+        .head {
+            width: 100%;
+            height: 80px;
+            background-color: rgb(249, 249, 249);
+        }
+        .head .logo {
+            float: left;
+            width: 670px;
+            height: 100%;
+            background-image: url("../images/163logo.png");
+        }
+        .head .link {
+            float: right;
+            margin-right: 10px;
+        }
+        .head .link a {
+            text-decoration: none;
+            font-size: 12px;
+            color: #ccc;
+            line-height: 80px;
+        }
+        .content {
+            width: 100%;
+            height: 600px;
+            background-color: rgb(245, 245, 245);
+        }
+        .content .top .title {
+            height: 40px;
+            background-color: rgb(95, 143, 190);
+        }
+        .content .top .title p {
+            color: white;
+            line-height: 40px;
+            margin-left: 10px;
+            font-size: 14px;
+        }
+        .content .bottom .register {
+            width: 642px;
+            height: 560px;
+            float: left;
+            padding: 50px 0 0 80px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-top:none;
+            border-bottom: none;
+            /*background-color: yellow;*/
+        }
+        .content .bottom .register .tab {
+            width: 560px;
+            height: 60px;
+        }
+        .content .bottom .register .tab ul {
+            list-style: none;
+        }
+        .content .bottom .register .tab ul li {
+            float: left;
+            width: 137px;
+            height: 34px;
+            line-height: 34px;
+            text-align: center;
+        }
+        .content .bottom .register .register_form .line {
+            width: 413px;
+            height: 28px;
+        }
+        .content .bottom .register .register_form .line .star {
+            width: 0px;
+            color: red;
+        }
+        .content .bottom .register .register_form .line span {
+            width: 60px;
+            height: 100%;
+            float: left;
+            font-size: 12px;
+            line-height: 28px;
+            text-align: right;
+        }
+        .content .bottom .register .register_form .line div {
+            width: 333px;
+            height: 100%;
+            float: right;
+        }
+        .content .bottom .register .register_form p {
+            font-size: 12px;
+            margin-left: 80px;
+            line-height: 28px;
+        }
+        .content .bottom .register input[type=submit]{
+            width: 119px;
+            height: 37px;
+            background: rgb(95, 143, 190);
+            border:none;
+            font-size: 20px;
+            color: white;
+            margin-left: 80px;
+            margin-top:20px;
+        }
+        .content .bottom .aside {
+            width:  318px;
+            height: 560px;
+            float: right;
+            border: 1px solid #ccc;
+            border-top:none;
+            border-left: none;
+            border-bottom: none;
+            box-sizing: border-box;
+        }
+        .content .bottom .aside img {
+            width: 100%;
+            height: 100%;
+            object-fit: none;
+        }
+        .foot {
+            width: 100%;
+            height: 48px;
+            background-color: whitesmoke;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        .foot span {
+            font-size: 12px;
+            color: lightgrey;
+            line-height: 48px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="head">
+            <div class="logo">
+                <a href="#" title="网易163免费邮"></a>
+                <a href="#" title="网易126免费邮"></a>
+                <a href="#" title="网易Yeah.net免费邮"></a>
+            </div>
+            <div class="link">
+                <a href="#">了解更多</a>
+                |
+                <a href="#">反馈意见</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="top">
+                <div class="title">
+                    <p>欢迎注册无限容量的网易邮箱！邮件地址可以登录使用其他网易旗下产品。</p>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="register">
+                    <!--注册方式tab选择-->
+                    <div class="tab">
+                        <ul>
+                            <li>注册字母邮箱</li>
+                            <li>注册手机号码邮箱</li>
+                            <li>注册VIP邮箱</li>
+                        </ul>
+                    </div>
+
+                    <!--注册表单-->
+                    <div class="register_form">
+                        <!--邮箱地址-->
+                        <div class="line">
+                            <span><span class="star">*</span>邮箱地址</span>
+                            <div>
+                                <input type="text" placeholder="建议使用手机号码注册">
+                                @
+                                <select>
+                                    <option>163.com</option>
+                                    <option>126.com</option>
+                                    <option>llq.com</option>
+                                </select>
+                            </div>
+                        </div>
+                        <p>6~18个字符，可使用字母、数字、下划线，需以字母开头</p>
+
+                        <!--密码-->
+                        <div class="line">
+                            <span><span class="star">*</span>密码</span>
+                            <div>
+                                <input type="password">
+                            </div>
+                        </div>
+                        <p>6~18个字符，可使用字母、数字、下划线，需以字母开头</p>
+
+                        <!--确认密码-->
+                        <div class="line">
+                            <span><span class="star">*</span>确认密码</span>
+                            <div>
+                                <input type="password">
+                            </div>
+                        </div>
+                        <p>请再次填写密码</p>
+
+                        <!--手机号码-->
+                        <div class="line">
+                            <span><span class="star">*</span>手机号码</span>
+                            <div>
+                                <input type="">
+                            </div>
+                        </div>
+                        <p>忘记密码时,可以通过该手机号码快速找回密码</p>
+
+                        <!--验证码-->
+                        <div class="line">
+                            <span><span class="star">*</span>验证码</span>
+                            <div>
+                                <input type="">
+                            </div>
+                        </div>
+                        <p>请填写图片中的字符, 不区分大小写</p>
+
+                        <!--条款-->
+                        <p>
+                            <input type="checkbox" checked="checked">
+                            同意
+                            <a href="#">“服务条款”</a>
+                            和
+                            <a href="#">“隐私权保护和个人信息利用政策”</a>
+                        </p>
+
+                        <!--注册-->
+                        <input type="submit" value="立即注册">
+                    </div>
+                </div>
+                <div class="aside">
+                    <img src="../images/163.png">
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <span>网易邮箱版权所有</span>
+        </div>
+    </div>
+</body>
+</html>
