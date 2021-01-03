@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .base {
+            background-color: yellow;
+            width: 100%;
+            /* width: 220px; */
+            height: 500px;
+            /* 容器都可以指定为 Flex 布局
+                设为 Flex 布局以后，子元素的float、clear和vertical-align属性将失效。
+             */
+
+            display: flex;
+            /* 行内元素也可以使用 Flex 布局。 */
+            /* display: inline-flex; */
+            /* Webkit 内核的浏览器，必须加上-webkit前缀。 */
+            /* display: -webkit-flex;  
+            display: flex; */
+            /* 属性决定主轴的方向（即项目的排列方向）。
+                row | row-reverse | column | column-reverse;
+             */
+            flex-direction: row;
+
+            /* flex-wrap属性定义，如果一条轴线排不下，如何换行。
+                nowrap（默认）：不换行。
+                wrap：换行，第一行在上方。
+                wrap-reverse：换行，第一行在下方。
+             */
+            flex-wrap: wrap;
+
+            /* justify-content属性定义了项目在主轴上的对齐方式。
+                flex-start | flex-end | center | space-between | space-around;
+                space-between：两端对齐，项目之间的间隔都相等。
+                space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+             */
+             justify-content: center;
+
+             /* align-items属性定义项目在交叉轴上如何对齐。 
+                flex-start | flex-end | center | baseline | stretch;
+                baseline: 项目的第一行文字的基线对齐。
+                stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度。
+             */
+             align-items: stretch;
+
+             /* align-content属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
+                align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+              */ 
+              align-content: center;
+        }  
+        .base .child { 
+            width: 100px;
+            height: 100px;  
+            text-align: center;
+            color: white;
+            flex: 1;
+        }
+        .base .child:nth-child(1) {
+            background-color: black;
+        }
+        .base .child:nth-child(2) {
+            background-color: orange;
+            /* order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。 */
+            order: -1;
+            /* flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大。 */
+            flex-grow: 2; 
+        }
+        .base .child:nth-child(3) {
+            background-color: green;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="base">
+        <div class="child">1</div>
+        <div class="child">2</div>
+        <div class="child">3</div>
+    </div>
+</body>
+</html>
