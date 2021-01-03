@@ -14,21 +14,23 @@
             background-color: yellow;
             overflow: hidden;
         }
-        .box1{
+        .box1{ /* 设置overflow，可以清除浮动 */
             background-color: red;
             overflow: hidden;
             *zoom:1;
         }
-        .box2{
-            background-color: green;
+        .box2{ /* 未设置overflow，无法清除浮动 */
+            background-color: green; 
         }
         .box1 p{
             width: 100px;
             background-color: blue;
+            margin-right: 10px;
         }
         .box2 p{
             width: 100px;
             background-color: yellow;
+            margin-right: 10px;
         }
         p{
             float: left;
@@ -36,7 +38,7 @@
         .box3{
             width: 200px;
             height: 200px;
-            background-color: red;
+            background-color: purple;
             /*border: 1px solid #000;*/
             overflow: hidden;
         }
@@ -57,7 +59,7 @@
 -->
 
 
-<div class="d">我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字</div>
+<div class="d">我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字我是文字</div>
 
 
 <div class="box1">

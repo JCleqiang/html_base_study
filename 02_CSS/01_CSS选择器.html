@@ -9,6 +9,7 @@
         *{
             color: black;
         }
+        /* 标签选择器 */
         /*p {*/
         /*    color: gray;*/
         /*}*/
@@ -61,8 +62,8 @@
          :nth-last-of-type(n)  选中同级别中同类型的倒数第n个标签
          :only-of-type 选中父元素中唯一类型的某个标签
         */
-        .xu_xuan_ze_qi:nth-of-type(2) {
-            background-color: #FF0000;
+        .xu_xuan_ze_qi:nth-child(1) {
+            background-color:black;
         }
     </style>
 </head>
@@ -97,7 +98,7 @@
     <p class="xu_xuan_ze_qi">我是段落1</p>
     <div>
         <p class="xu_xuan_ze_qi">我是段落2</p>
-        <p class="xu_xuan_ze_qi">我是段落2</p>
+        <p class="xu_xuan_ze_qi">我是段落3</p>
         <h1>我是标题</h1>
     </div>
 </body>
